@@ -8,25 +8,25 @@
 	    	font-family: Helvetica, Arial, sans-serif;
 	    	padding: 100px;
     	}
-    	
+
     	h1 {
 	    	color: #70bce5;
 	    	font-size: 40px;
 	    	margin: 0 0 50px;
 	    	text-shadow: 3px 3px 2px rgba(0,0,0,0.51)
     	}
-    	
+
     	label {
     		font-size: 24px;
 	    	margin-right: 30px;
     	}
-    	
+
     </style>
     <body>
         <h1>Guitar Effects with the Javascript Audio API</h1>
         <div>
-            <label>Tone: <input id="tone" type="range" step="0.01" min="0" max="1" value="0"></label>
-            <label>Distortion: <input id="dist" type="range" step="1" min="0" max="100" value="0"></label>
+            <label>Tone: <input id="tone" type="range" step="0.01" min="0" max="1" value="0"></label><br>
+            <label>Distortion: <input id="dist" type="range" step="1" min="0" max="100" value="0"></label><br>
             <label>Gain: <input id="gain" type="range" step="0.01" min="0" max="1" value="0"></label>
         </div>
         <script>
@@ -47,12 +47,12 @@
 
                 //Set biquad filter type (0 == lowpass)
                 tone.type = 0;
-                
+
                 //Set initial node values
                 tone.frequency.value = calcFilterFrequency(0, context);
                 distortion.curve = makeDistortionCurve(0, context);
                 gain.gain.value = 1;
-                
+
                 //Connect nodes to source and destination
                 source.connect(tone);
                 tone.connect(distortion);
@@ -78,11 +78,11 @@
                 	maxValue = context.sampleRate / 2, //frequencies > 20kHz are inaudible
                 	numberOfOctaves = Math.log(maxValue / minValue) / Math.LN2,
                 	multiplier = Math.pow(2, numberOfOctaves * (value - 1.0)); //More octaves at the bottom of the curve
-                	
+
                 //Return frequency value between min and max.
                 return maxValue * multiplier;
             }
-            
+
             function makeDistortionCurve(value, context) {
 				var k = value,
 					n_samples = context.sampleRate,
@@ -90,12 +90,12 @@
 					deg = Math.PI / 180,
 					i = 0,
 					x;
-					
+
 				for (i; i < n_samples; ++i ) {
 					x = i * 2 / n_samples - 1;
 					curve[i] = ( 3 + k ) * x * 20 * deg / ( Math.PI + k * Math.abs(x) );
 				}
-				
+
 				return curve;
 			}
         </script>
