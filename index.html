@@ -39,14 +39,14 @@
 			}
 
 			function initAudio(stream) {
-				var context = new webkitAudioContext(),
+				var context = new AudioContext(),
 				source = context.createMediaStreamSource(stream),
 				tone = context.createBiquadFilter(),
 				distortion = context.createWaveShaper(),
 				gain = context.createGain();
 
 				//Set biquad filter type (0 == lowpass)
-				tone.type = 0;
+				tone.type = 'lowpass';
 
 				//Set initial node values
 				tone.frequency.value = calcFilterFrequency(0, context);
