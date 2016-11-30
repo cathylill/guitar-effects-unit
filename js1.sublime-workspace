@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"dist",
+				"distortion"
+			],
+			[
+				"init",
+				"initAudio"
+			],
+			[
+				"sm",
+				"sampleRate"
+			],
+			[
+				"start",
+				"startDT"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"com",
+				"compile"
+			],
+			[
+				"time",
+				"timeTaken"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10937,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKAGE",
+				"Package Control: Install Package"
+			],
+			[
+				"npack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Co",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cathylill/guitar-effects-unit"
+	],
+	"file_history":
+	[
+		"/Users/cathylill/.npmrc",
+		"/Users/cathylill/Desktop/WebRTC Talk",
+		"/Users/cathylill/talks/webrtc-talk-sydjs-april16/s",
+		"/Users/cathylill/Documents/Architecting an application with Mercury.txt",
+		"/Users/cathylill/Desktop/content-spec.txt",
+		"/Users/cathylill/Server/guitar-effects-unit/README.md",
+		"/Users/cathylill/Downloads/Snap.svg-0.4.1 2/dist/snap.svg-min.js",
+		"/Users/cathylill/.bash_profile",
+		"/Users/cathylill/Server/rtc/coviu-frontend/renderers/sessionMenu.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/utils/waitingPeers.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/renderers/sessionConnections.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/styles/scss/_layout.scss",
+		"/Users/cathylill/Server/rtc/coviu-base-styles/_variables.scss",
+		"/Users/cathylill/Server/rtc/coviu-base-styles/_mixins.scss",
+		"/Users/cathylill/Server/rtc/coviu-frontend/styles/scss/_skin.scss",
+		"/Users/cathylill/Server/rtc/coviu-frontend/stores/connectedPeers.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/styles/scss/index.scss",
+		"/Users/cathylill/Server/rtc/coviu-frontend/stores/session.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/gulpfile.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/stores/timer.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/utils/updateTimer.js",
+		"/Users/cathylill/Server/rtc/coviu-frontend/utils/timer.js",
+		"/Users/cathylill/Server/wwc/intro-to-sass/exercise/sass/_normalize.scss",
+		"/Users/cathylill/Server/rtc/coviu-frontend/.gulpfile",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/views/session.handlebars",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/package.json",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/gulpfile.js",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/src/scss/index.scss",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/src/js/components/RenderVideo.js",
+		"/Users/cathylill/Server/rtc/Telepresence/perspeqtive/src/js/index.js",
+		"/Users/cathylill/Server/rtc/Experiments/chatterbox/js/components/Videos.react.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/account.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/index.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/account.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/myapps.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/css/sass/_variables.scss",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/css/sass/_layout.scss",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/css/sass/_components.scss",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/css/sass/_skin.scss",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/middleware.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/signin.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/node_modules/keystone/templates/fields/password/form.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/node_modules/keystone/templates/views/signin.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/index.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/node_modules/keystone/routes/views/signin.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/signin.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/node_modules/keystone/routes/views/item.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/node_modules/keystone/templates/fields/password/initial.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/myapps.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/modules/processBuildJob.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/modules/watchQueue.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/index.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/modules/clarity-config.json",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/layouts/default.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/faq.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/app.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/guides.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/models/App.js",
+		"/Users/cathylill/Server/ga-angular/complete/module/Module.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/js/lib/index.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/faq.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views/contact.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/models/Enquiry.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/contact.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/package.json",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/templates/views/app.jade",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/keystone.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/public/js/index.js",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/.ebextensions/01_elb_websocket.config",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/.elasticbeanstalk/config",
+		"/Users/cathylill/eb-access-key",
+		"/Users/cathylill/Server/rtc/Websites/build.rtc/app/modules/queue.js",
+		"/Users/cathylill/Server/rtc/rtc.io/rtc/.gitignore",
+		"/Users/cathylill/Server/rtc/Experiments/rtc.io-demos/rtc/index.html",
+		"/Users/cathylill/Server/rtc/Experiments/rtc.io-demos/rtc/index.js",
+		"/Users/cathylill/Server/rtc/Experiments/media-qc-video-demo/index.js",
+		"/Users/cathylill/Server/rtc/Experiments/qc-simple-text-demo/index.js",
+		"/Users/cathylill/Server/rtc/Experiments/qc-simple-text-demo/index.html",
+		"/Users/cathylill/Server/rtc/Experiments/rtc.io-demos/rtc/npm-debug.log",
+		"/Users/cathylill/Server/rtc/Experiments/rtc.io-demos/rtc/bundle.js",
+		"/Users/cathylill/Server/rtc/Experiments/media-qc-video-demo/index.html",
+		"/Users/cathylill/Server/rtc/virtualcounter.io/sass/_layout.scss",
+		"/Users/cathylill/Server/rtc/virtualcounter.io/sass/_media-queries.scss",
+		"/Users/cathylill/Server/rtc/virtualcounter.io/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/cathylill/Server/rtc/Websites/build.rtc/app/routes/views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var",
+			"feed_lab",
+			"locations",
+			"label",
+			"result[i]",
+			"archive",
+			"content",
+			"announce",
+			"gotLocalStream",
+			"captureTargets",
+			"transparent",
+			"white",
+			"BLACK"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"files",
+			"app",
+			"$a",
+			"$b",
+			"white"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7955,
+								7955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "js1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

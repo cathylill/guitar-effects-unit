@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+	/* https://lea.verou.me/css3patterns/ */
+	background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #1f1f1f;
+    background-size: 16px 16px;
+
+	color: #ADB0B0;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+	padding: 100px;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: rgba(23, 145, 207, 0.9);
+	font-size: 3rem;
+	margin: 0 0 3rem;
+	text-shadow: 1px 1px 2px #000, 0 0 0 #fff, 1px 1px 2px #000;
+	text-align: center;
+}
+
+label {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 1.3rem;
+    text-shadow: 1px 1px 1px #000, 1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+.effect label {
+	margin-right: 1rem;
+	display: inline-block;
+	width: 5rem;
+}
+
+.switch label {
+	display: block;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+input[type="range"] {
+	display: inline-block;
+	width: calc(100% - 7rem);
+}
+
+/* Overrides for umbrUI */
+input[type="checkbox"]:before, input[type="checkbox"]:after {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 16px;
+}
+
+/* Off active */
+input[type="checkbox"]:before {
+	color: #E0001C;
+	text-shadow: rgba(0,0,0,.5) 0 1px 1px, #C63B42 0 0 10px;
+}
+
+/* Off inactive */
+input[type="checkbox"]:checked:before {
+	color: #1C0C0D;
+}
+
+/* On inactive */
+input[type="checkbox"]:after {
+	color: #121D13;
+}
+
+/* On active */
+input[type="checkbox"]:checked:after {
+	color: #1EE921;
+	text-shadow: rgba(0,0,0,.5) 0 1px 1px, #69CD5D 0 0 10px;
+}
+
+#pedal {
+	box-shadow: inset 0 0 1rem black;
+	max-width: 26rem;
+	margin: 1rem auto;
+	border: 1px solid #232323;
+	border-radius: 1rem;
+	padding: 3rem;
+	background: #232323;
+	position: relative;
+}
+
+.effect {
+	margin-bottom: 3rem;
+	position: relative;
+}
+
+.switch {
+	text-align: center;
+	display: inline-block;
+	width: calc(50% - 0.5rem);
+	margin-bottom: 3rem;
+}
+
+.led-red {
+	width: 1.2rem;
+	height: 1.2rem;
+	background-color: #940;
+	border-radius: 50%;
+	box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+	position: absolute;
+	top: 2.6rem;
+	right: 4rem;
+}
+
+.led-red.on {
+	background-color: red;
+	box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+}
