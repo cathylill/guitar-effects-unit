@@ -121,12 +121,12 @@ function createToneNode (context) {
 	var tone = context.createBiquadFilter();
 
 	tone.type = 'lowpass';
-	tone.frequency.value = calcFilterFrequency(0, context);
+	tone.frequency.value = calcLowpassFrequency(0, context);
 
 	return tone;
 }
 
-function calcFilterFrequency(value, context) {
+function calcLowpassFrequency(value, context) {
 	//Minimum frequency cutoff
 	var minValue = 600;
 	//frequencies > 20kHz are inaudible
@@ -141,7 +141,7 @@ function calcFilterFrequency(value, context) {
 
 function makeDistortionCurve(value, context) {
 	var k = value;
-	var n_samples = context.sampleRate; //44.1k
+	var n_samples = context.sampleRate; //44.1kHz
 	var curve = new Float32Array(n_samples);
 	var deg = Math.PI / 180;
 	var i = 0;
